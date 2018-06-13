@@ -2,9 +2,9 @@
 
     #Working directory: GETWD, SETWD
 
-  setwd("//cdc.gov/private/L133/mue9/Lynch Syndrome Testing/Lynch Main Documents")
+  setwd("... Main Documents")
   
-  data=read.csv("//cdc.gov/private/L133/mue9/Lynch Syndrome Testing/Lynch Main Documents/Incidence11_15.csv")
+  data=read.csv(".../Incidence11_15.csv")
   
   View(data)
   
@@ -12,7 +12,7 @@
   
     #Good help here: http://www.cookbook-r.com/Data_input_and_output/Writing_data_to_a_file/
  
-  data = readLines("//cdc.gov/private/L133/mue9/Lynch Syndrome Testing/Lynch Main Documents/incidence11_15.txt")
+  data = readLines("...incidence11_15.txt")
 
   
   ######################################################################################################
